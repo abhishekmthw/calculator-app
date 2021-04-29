@@ -1,0 +1,45 @@
+.calculator {
+    margin: 25px;
+    height: 355px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.display {
+    height: 50px;
+    width: 238px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 25px 25px 20px 25px;
+    background-color: white;
+    line-height: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.keypad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    margin: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 5px;
+}
+
+.equal {
+    background-color: tomato;
+}
